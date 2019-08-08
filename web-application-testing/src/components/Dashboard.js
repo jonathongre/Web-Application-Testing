@@ -49,7 +49,9 @@ export default function Dashboard() {
                 <button onClick={() => strikesAdd()}>Strike</button>
                 <button onClick={() => ballsAdd()}>Ball</button>
                 <button onClick={() => foulsAdd()}>Foul</button>
+                
             </div>
+            <span data-testid="hits">{hits}</span>
         </div>
     )
 }
